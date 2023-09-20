@@ -1,0 +1,70 @@
+body {
+  
+  background-image: url("https://imgs.search.brave.com/qiANxc-3WFX89eUGOHuOjrIdYyj0waYvTN1ONA7X1xQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lbGVj/dHJpY25lb24uY29t/Lm14L2Nkbi9zaG9w/L3Byb2R1Y3RzL0lN/R18zNzExXzcwMHg3/MDAucG5nP3Y9MTY4/MTkzMDQ0NA");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Estilo para el contenedor principal del formulario y la búsqueda */
+nav {
+  
+  display: flex; /* Utiliza Flexbox para alinear elementos horizontalmente */
+  justify-content: space-between; /* Distribuye el espacio horizontalmente */
+  align-items: center; /* Alinea verticalmente al centro */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
+  margin-top: 50px;
+  color: rgb(255, 0, 0);
+  font-family: 'Gochi Hand', cursive;
+  font-size: 30px;
+}
+
+/* Estilo para los inputs y el botón */
+.input {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin-right: 10px; /* Agrega margen derecho para separar los elementos */
+}
+
+/* Estilo para la imagen */
+img {
+  max-width: 100%; /* Hace que la imagen sea responsive */
+  height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  display: block; /* Elimina espacios en blanco debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* ... (el CSS existente) */
+
+/* Estilo para el contenedor principal */
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide el espacio en dos columnas */
+  gap: 20px; /* Espacio entre las dos columnas */
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para el contenedor de la tabla */
+.table-container {
+  display: flex;
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: center; /* Alinea horizontalmente al centro */
+}
+
+/* Estilo para la tabla (puedes ajustar según tus necesidades) */
+td, th{
+  color: rgb(173, 216, 17);
+  background-color: blueviolet;
+  font-size: 30px;
+  border: 2px double red;
+  font-family: 'Gochi Hand', cursive;
+}
+
+
+
+
+
