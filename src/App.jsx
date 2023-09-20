@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./componentes/Card";
-import Nav from "./componentes/nav";
+import Nav from "./componentes/Nav";
 import usePokemon from "./servicios/usePokemon";
 
 function App() {
