@@ -1,8 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La Pokedex es sencilla de hacer, pero sirve para entender como obtener datos de una api y presentarlos
+en pantalla, aunque no se puede hacer ningun cambio directo en la api se puede entender lo que 
+hace GET.
+Asi como el crear funciones las cuales permitan bucar datos, ya sea por ID, nombre, o por una letra, en este caso se usa map para poder obtener todos los datos que tengan una letra en comun
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://alogm.github.io/pokedex/
