@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
+body {
+  background-image: url("https://imgs.search.brave.com/qiANxc-3WFX89eUGOHuOjrIdYyj0waYvTN1ONA7X1xQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lbGVj/dHJpY25lb24uY29t/Lm14L2Nkbi9zaG9w/L3Byb2R1Y3RzL0lN/R18zNzExXzcwMHg3/MDAucG5nP3Y9MTY4/MTkzMDQ0NA");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+}
+nav {
+  display: flex;
+  position:absolute;
+  top: 5%;
+  right: 0;
+  align-items: center;
+  color: rgb(21, 0, 255);
+  font-size: 20px;  
+}
+.imge-conteiner{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+section {
+  display: flex;
+  gap: 20px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+td, th {
+  
+    color: rgb(0, 255, 38);
+    background-color: blueviolet;
+    font-size: 30px;
+    border:  2px, double red;
+    font-family: 'Gochi Hand', cursive;
   }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  filter: drop-shadow(0 1em 1em #646cffaa);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input:hover {
+  filter: drop-shadow(1em 0 1em #61dafbaa);
 }
-
-.card {
-  padding: 2em;
+input, label {
+  margin: 0px 15px 0px 15px;
 }
-
-.read-the-docs {
-  color: #888;
+.table-container {
+  display: block;
+  position: relative; /* Cambia a posición relativa */
+  top: 150px; /* Mueve el elemento 20px hacia abajo */
+  left: 200px; /* Mueve el elemento 50px hacia la derecha */
 }
+ 
