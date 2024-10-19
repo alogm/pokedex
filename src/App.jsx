@@ -1,7 +1,7 @@
 import './App.css';
 import usePokemon from "./servicios/usePokemon";
 import Nav from './componentes/Nav';
-import Card from './componentes/card';
+import Card from './componentes/Card';
 
 function App() {
   const {data, filtered, handleClick, handleSubmit, handleOnChange} = usePokemon();
